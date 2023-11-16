@@ -16,7 +16,7 @@ function HeroSection() {
         >
           <h1 className="text-white font-extrabold mb-4 text-2xl sm:text-5xl lg:text-6xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">
-              Hello, I'm{" "}
+            Hello, I&apos;m{" "}
             </span>
             <TypeAnimation
               sequence={["Kiet", 1000, "Web Developer"]}
@@ -26,7 +26,7 @@ function HeroSection() {
             />
           </h1>
           <p className="text-[#949490] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm trying to become a good programmer
+            I&apos;m trying to become a good programmer
           </p>
           <div>
             <button className="px-1 py-1 rounded-full sm:w-fit bg-transparent bg-gradient-to-r from-yellow-600 to-yellow-300 text-white">
