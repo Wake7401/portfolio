@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import NavLink from "./Navlink";
+import NavBarLink from "./NavBarLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
@@ -52,15 +52,13 @@ function Navbar() {
           <ul className="flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavBarLink href={link.path} title={link.title} />
               </li>
             ))}
           </ul>
         </div>
       </div>
-      {
-        navbarOpen ? <MenuOverlay links={navLinks} /> : null
-      }
+      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );
 }

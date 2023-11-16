@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function NavLink({ href, title }) {
+function NavBarLink({ href, title }) {
   return (
     <Link
       href={href}
@@ -11,4 +11,4 @@ function NavLink({ href, title }) {
   );
 }
 
-export default NavLink;
+export default NavBarLink;
