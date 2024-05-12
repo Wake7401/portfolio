@@ -26,7 +26,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Nam Can Tho University</li>
-        <li>Level - Fair</li>
+        <li>Level - Good</li>
       </ul>
     ),
   },
